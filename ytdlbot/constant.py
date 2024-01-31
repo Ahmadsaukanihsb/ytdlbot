@@ -83,19 +83,19 @@ Sending format: **{1}**
     custom_text = os.getenv("CUSTOM_TEXT", "")
 
     premium_warning = """
-    Your file is too big, do you want me to try to send it as premium user? 
-    This is an experimental feature so you can only use it once per day.
-    Also, the premium user will know who you are and what you are downloading. 
-    You may be banned if you abuse this feature.
+File Anda terlalu besar, apakah Anda ingin saya mencoba mengirimkannya sebagai pengguna premium?
+Ini adalah fitur eksperimental sehingga Anda hanya dapat menggunakannya sekali sehari.
+Selain itu, pengguna premium akan mengetahui siapa Anda dan apa yang Anda unduh.
+Anda mungkin diblokir jika Anda menyalahgunakan fitur ini.
     """
 
     @staticmethod
     def get_receive_link_text() -> str:
         reserved = get_func_queue("reserved")
         if ENABLE_CELERY and reserved:
-            text = f"Your tasks was added to the reserved queue {reserved}. Processing...\n\n"
+            text = f"Tugas Anda telah ditambahkan ke antrean khusus {reserved}. Proses...\n\n"
         else:
-            text = "Your task was added to active queue.\nProcessing...\n\n"
+            text = "Tugas Anda telah ditambahkan ke antrean aktif.\Mendownload...\n\n"
 
         return text
 
