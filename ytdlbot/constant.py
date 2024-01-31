@@ -23,29 +23,26 @@ from utils import get_func_queue
 
 class BotText:
     start = """
-    Welcome to YouTube Download bot. Type /help for more information. 
-    Backup bot: @benny_2ytdlbot
-    Join https://t.me/+OGRC8tp9-U9mZDZl for updates."""
+Selamat datang di Downloader Bot. ketik /help cara menggunakan bot. 
+Developed by : @Exodiazx"""
 
     help = f"""
-1. If the bot doesn't work, try again or join https://t.me/+OGRC8tp9-U9mZDZl for updates.
-
-2. Source code: https://github.com/tgbot-collection/ytdlbot
+Salin link dari Platform Youtube/Tiktok/Instagram/Facebook/Twitter Kirim ke bot ini.
     """
 
-    about = "YouTube Downloader by @BennyThink.\n\nOpen source on GitHub: https://github.com/tgbot-collection/ytdlbot"
+    about = "Downloader Bot by @Exodiazx."
 
     buy = f"""
 **Terms:**
-1. You can use this bot to download video for {FREE_DOWNLOAD} times within a 24-hour period.
+1. Anda dapat menggunakan bot ini untuk mendownload video sebanyak {FREE_DOWNLOAD} kali dalam jangka waktu 24 ja.
 
-2. You can buy additional download tokens, valid permanently.
+2. Anda dapat membeli token Download tambahan, berlaku secara permanen.
 
-3. Refunds are possible, contact me if you need that @BennyThink
+3. Pengembalian dana dimungkinkan, hubungi saya jika Anda membutuhkannya @Exodiazx
 
-4. Download for paid user will be automatically changed to Local mode to avoid queuing.
+4. Download untuk pengguna Premium tidak memerlukan antrian.
 
-5. Paid user can download files larger than 2GB.
+5. Premium user bisa mendownload video lebih dari 2GB.
 
 **Price:**
 valid permanently
